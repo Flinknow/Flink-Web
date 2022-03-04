@@ -75,7 +75,7 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+      <div className="max-w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-5 xl:col-span-1">
             <img className="h-32" src="/footer-logo.png" alt="Company name" />
@@ -86,7 +86,7 @@ export default function Footer() {
           <div className="mt-12 grid grid-cols-1 gap-1 xl:mt-0 xl:col-span-2">
             <div className="md:grid md:grid-cols-3 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold text-gray-700 tracking-wider uppercase">
+                <h3 className="pt-4 text-sm font-semibold text-gray-700 tracking-wider uppercase">
                   Follow Us
                 </h3>
                 <div className="flex space-x-4 pt-5">
@@ -94,7 +94,7 @@ export default function Footer() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="text-indigo-500 hover:text-indigo-800"
+                      className="text-indigo-700 hover:text-indigo-800"
                     >
                       <span className="sr-only">{item.name}</span>
                       <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -103,7 +103,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-700 tracking-wider uppercase">
+                <h3 className="pt-4 text-sm font-semibold text-gray-700 tracking-wider uppercase">
                   Contact Us
                 </h3>
                 <div className="mt-4 space-y-1">
@@ -119,7 +119,7 @@ export default function Footer() {
                 </div>
               </div>
               <div>
-                <h3 className="text-sm font-semibold text-gray-700 tracking-wider uppercase">
+                <h3 className="pt-4 text-sm font-semibold text-gray-700 tracking-wider uppercase">
                   Terms & Conditions
                 </h3>
                 <ul role="list" className="mt-4 space-y-1">

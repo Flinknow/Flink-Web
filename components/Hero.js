@@ -60,11 +60,11 @@ export default function Example() {
       </div>
 
       <div className="relative pt-1 pb-16 sm:pb-24 lg:pb-32">
-        <main className="mt-16 mx-auto max-w-8xl px-10 ">
+        <main className="mt-16 mx-auto max-w-full px-10 ">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:mt-20 sm:px-0 lg:mt-28 sm:text-center md:max-w-5xl md:mx-auto lg:col-span-7 lg:text-left">
               <h1>
-                <span className="mt-1 block text-5xl tracking-tight font-extrabold sm:text-6xl xl:text-7xl">
+                <span className="mt-1 block text-5xl tracking-tight font-bold sm:text-6xl xl:text-8xl">
                   <span className="font-sans block text-indigo-600">
                     Salon Bookings
                   </span>
