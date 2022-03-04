@@ -12,7 +12,7 @@ const navigation = [
 
 export default function Example() {
   return (
-    <div className="relative bg-white overflow-hidden">
+    <div className="relative bg-background overflow-hidden">
       <div
         className="hidden lg:block lg:absolute lg:inset-0"
         aria-hidden="true"
@@ -71,35 +71,37 @@ export default function Example() {
                   <span className="block text-gray-500">
                     At your fingertips.
                   </span>
-                  
                 </span>
               </h1>
               <p className="mt-5 text-base text-gray-500 sm:mt-7 sm:text-xl lg:text-lg xl:text-xl">
                 Get the Flink App today and book your Salon appointment in Blink
               </p>
               <div className="mt-8 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
-                    <div className="flex flex-wrap items-start justify-start">
-                      <div className="flex justify-center px-1">
-                        <a href="https://play.google.com/store" target="_blank">
-                        <img
-                          className="h-12 sm:h-14"
-                          src="/playstore.png"
-                          alt="Google PlayStore"
-                        />
-                        </a>
-                      </div>
-                      
-                      <div className="flex justify-center px-1">
-                      <a href="https://www.apple.com/in/app-store/" target="_blank">
-                        <img
-                          className="h-12 sm:h-14"
-                          src="/appstore.png"
-                          alt="Apple App Store"
-                        />
-                        </a>
-                      </div>
-                    </div>
+                <div className="flex flex-wrap items-start justify-start">
+                  <div className="flex justify-center px-1">
+                    <a href="https://play.google.com/store" target="_blank">
+                      <img
+                        className="h-12 sm:h-14"
+                        src="/playstore.png"
+                        alt="Google PlayStore"
+                      />
+                    </a>
                   </div>
+
+                  <div className="flex justify-center px-1">
+                    <a
+                      href="https://www.apple.com/in/app-store/"
+                      target="_blank"
+                    >
+                      <img
+                        className="h-12 sm:h-14"
+                        src="/appstore.png"
+                        alt="Apple App Store"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-5 lg:flex lg:items-center">
               <svg

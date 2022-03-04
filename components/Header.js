@@ -9,7 +9,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-white shadow">
+    <Disclosure as="nav" className="bg-background shadow">
       {({ open }) => (
         <>
           <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
