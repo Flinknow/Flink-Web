@@ -1,9 +1,9 @@
-const navigation = { 
+const navigation = {
   company: [
     { name: "Claim", href: "#" },
     { name: "Privacy", href: "#" },
     { name: "Terms", href: "#" },
-  ],  
+  ],
   social: [
     {
       name: "Facebook",
@@ -71,7 +71,7 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-white" aria-labelledby="footer-heading">
+    <footer className="bg-background" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -107,15 +107,9 @@ export default function Footer() {
                   Contact Us
                 </h3>
                 <div className="mt-4 space-y-1">
-                  <p className="text-base text-gray-600 ">
-                    flinkapp@gmail.com
-                  </p>
-                  <p className="text-base text-gray-600 ">
-                  +91 1234567890
-                  </p>
-                  <p className="text-base text-gray-600">
-                  Bangalore, India
-                  </p>
+                  <p className="text-base text-gray-600 ">flinkapp@gmail.com</p>
+                  <p className="text-base text-gray-600 ">+91 1234567890</p>
+                  <p className="text-base text-gray-600">Bangalore, India</p>
                 </div>
               </div>
               <div>
