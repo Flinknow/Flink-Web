@@ -2,6 +2,7 @@ import About from "../components/About";
 import AboutHero from "../components/About/AboutHero";
 import AboutTeams from "../components/About/AboutTeams";
 import Footer from "../components/Footer";
+import GetInTouch from "../components/GetInTouch";
 import Header from "../components/header";
 import Hero from "../components/Hero";
 import Partner from "../components/Partner";
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutHero />
       <AboutTeams />
       <Hero />
+      <GetInTouch/>
       <About />
       <Partner />
       <Section />
